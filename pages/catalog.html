@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/58f404ce76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/catalog.css">
+    <title>Promo cars</title>
+</head>
+<body>
+    <section class="section-models">
+        <div class="models-text">
+            <a class="models-back" href="../index.html"><i class="fa-solid fa-arrow-left"></i>  Назад</a>
+            <h2 class="models-title">
+                Популярные модели
+            </h2>
+        </div>
+
+        <div class="models models-row">
+
+            <div class="model">
+                <div class="model-img">
+                    <img src="../images/models/2021_mercedes-benz_gle-class_4dr-suv_amg-gle-53_fq_oem_1_1280.jpg" alt="Mercedes-Benz GLE">
+                </div>
+                <div class="model-info">
+                    <div class="model-name"><span>2077 GLE-Class</span></div>
+                    <div class="model-price"><span>От $ 98,890</span></div>
+                </div>
+                <div class="model-footer">
+                    <button class="btn-model btn-model-white" onclick="showPopup('popup-gle')"><i class="fa fa-cog"></i><span>Подробнее</span></button>
+                </div>
+            </div>
+
+            <div class="model">
+                <div class="model-img">
+                    <img src="../images/models/lamborgini.jpg" alt="Lamborgini Urus">
+                </div>
+                <div class="model-info">
+                    <div class="model-name"><span>Lamborgini Urus</span></div>
+                    <div class="model-price"><span>От $ 275,000</span></div>
+                </div>
+                <div class="model-footer">
+                    <button class="btn-model btn-model-white" onclick="showPopup('popup-urus')"><i class="fa fa-cog"></i><span>Подробнее</span></button>
+                </div>
+            </div>
+
+            <div class="model">
+                <div class="model-img">
+                    <img src="../images/models/foto-velar-2022_00.jpg" alt="Range Rover Velar">
+                </div>
+                <div class="model-info">
+                    <div class="model-name"><span>Range Rover Velar</span></div>
+                    <div class="model-price"><span>От $ 90,000</span></div>
+                </div>
+                <div class="model-footer">
+                    <button class="btn-model btn-model-white" onclick="showPopup('popup-velar')"><i class="fa fa-cog"></i><span>Подробнее</span></button>
+                </div>
+            </div>
+
+            <div class="model">
+                <div class="model-img">
+                    <img src="../images/models/toyta.jpg" alt="Mercedes-Benz GLE">
+                </div>
+                <div class="model-info">
+                    <div class="model-name"><span>Tacoma</span></div>
+                    <div class="model-price"><span>От $ 26,400</span></div>
+                </div>
+                <div class="model-footer">
+                    <button class="btn-model btn-model-white" onclick="showPopup('popup-tacoma')"><i class="fa fa-cog"></i><span>Подробнее</span></button>
+                </div>
+            </div>
+
+            <div class="model">
+                <div class="model-img">
+                    <img src="../images/models/jeep.jpg" alt="Lamborgini Urus">
+                </div>
+                <div class="model-info">
+                    <div class="model-name"><span>Jeep Cherokee</span></div>
+                    <div class="model-price"><span>От $ 36,759</span></div>
+                </div>
+                <div class="model-footer">
+                    <button class="btn-model btn-model-white" onclick="showPopup('popup-cherokee')"><i class="fa fa-cog"></i><span>Подробнее</span></button>
+                </div>
+            </div>
+
+            <div class="model">
+                <div class="model-img">
+                    <img src="../images/models/lexus.jpg" alt="Range Rover Velar">
+                </div>
+                <div class="model-info">
+                    <div class="model-name"><span>Lexus GX 460</span></div>
+                    <div class="model-price"><span>От $ 55,990</span></div>
+                </div>
+                <div class="model-footer">
+                    <button class="btn-model btn-model-white" onclick="showPopup('popup-lexus')"><i class="fa fa-cog"></i><span>Подробнее</span></button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section-popup">
+        <div class="popup" id="popup-gle">
+            <div class="popup-content">  
+                <button type="button" class="popup-close" onclick="showPopup('popup-gle')">&times;</button>
+                <h2 class="popup-title">Покупай Gle прямо сейчас!</h2>
+                <p class="popup-text">
+                    Gle позволяет вам исследовать любую местность: от тропы до песка, льда, гравия или камней. Это универсальный спортивный автомобиль. Он позволяет вам исследовать новые пути и новые способы самовыражения, уверенно принимать вызовы и жить полной жизнью. Вы не боитесь идти далеко: это то, к чему вы стремитесь. Разблокируйте любую дорогу, раскройте свою индивидуальность.
+                </p>
+                <div class="popup-buy">
+                    <button type="button" class="popup-button">$99,500</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-urus">
+            <div class="popup-content">
+                <button type="button" class="popup-close" onclick="showPopup('popup-urus')">&times;</button>
+                <h2 class="popup-title">Покупай Urus прямо сейчас!</h2>
+                <p class="popup-text">
+                    Декларируя свободу, Urus позволяет вам исследовать любую местность: от тропы до песка, льда, гравия или камней. Это абсолютный универсальный суперспортивный автомобиль и даже больше. Он позволяет вам исследовать новые пути и новые способы самовыражения, уверенно принимать вызовы и жить полной жизнью. Вы не боитесь идти далеко: это то, к чему вы стремитесь.
+                </p>
+                <div class="popup-buy">
+                    <button type="button" class="popup-button">$300,000</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-velar">
+            <div class="popup-content">
+                <button type="button" class="popup-close" onclick="showPopup('popup-velar')">&times;</button>
+                <h2 class="popup-title">Покупай Velar прямо сейчас!</h2>
+                <p class="popup-text">
+                    Range Rover Velar лидирует в компактном дизайне. Чистый, элегантный и самобытный автомобиль имеет яркий современный вид. Утонченная мощь и непринужденная элегантность сочетаются с изысканным эффектом в этом выдающемся образце современного автомобильного дизайна.
+                </p>
+                <div class="popup-buy">
+                    <button type="button" class="popup-button">$130,000</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-tacoma">
+            <div class="popup-content">
+                <button type="button" class="popup-close" onclick="showPopup('popup-tacoma')">&times;</button>
+                <h2 class="popup-title">Покупай Tacoma прямо сейчас!</h2>
+                <p class="popup-text">
+                    Создан с плавными изгибами, уверенной посадкой и культовыми элементами дизайна Tacoma. Компания Toyta ведет себя с суровой элегантностью. Более дюжины доступных вариантов колес только усиливают его влиятельный стиль. Интерьер Toyta Tacoma сочетает в себе роскошные ткани и доступную отделку премиум-класса, обеспечивая исключительный комфорт, к которому могут только стремиться другие внедорожники.
+                </p>
+                <div class="popup-buy">
+                    <button type="button" class="popup-button">$29,850</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-cherokee">
+            <div class="popup-content">
+                <button type="button" class="popup-close" onclick="showPopup('popup-cherokee')">&times;</button>
+                <h2 class="popup-title">Покупай Cherokee прямо сейчас!</h2>
+                <p class="popup-text">
+                    Jeep Grand Cherokee 2021 года, отличающийся плавными изгибами, уверенной посадкой и знаковыми элементами дизайна бренда Jeep®, отличается суровой элегантностью. Более дюжины доступных вариантов колес только усиливают его влиятельный стиль. Интерьер Jeep® Grand Cherokee сочетает в себе роскошные ткани и доступную отделку премиум-класса, обеспечивая исключительный комфорт, к которому другие внедорожники могут только стремиться.
+                </p>
+                <div class="popup-buy">
+                    <button type="button" class="popup-button">$38,325</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-lexus">
+            <div class="popup-content">
+                <button type="button" class="popup-close" onclick="showPopup('popup-lexus')">&times;</button>
+                <h2 class="popup-title">Покупай Lexus прямо сейчас!</h2>
+                <p class="popup-text">
+                    Lexus GX 460 лидирует в компактном дизайне. Чистый, элегантный и самобытный автомобиль имеет яркий современный вид. Утонченная мощь и непринужденная элегантность сочетаются с изысканным эффектом в этом выдающемся образце современного автомобильного дизайна.
+                </p>
+                <div class="popup-buy">
+                    <button type="button" class="popup-button">$56,700</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../scripts/catalog.js"></script>
+</body>
+</html>
