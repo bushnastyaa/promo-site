@@ -166,6 +166,11 @@ body {
 @media (max-width: 700px) {
     .main-title {
         font-size: 36px;
+        margin-top: 120px;
+    }
+
+    .contacts-back {
+        top: 5%;
     }
 
     .section-contacts-next {
@@ -173,8 +178,12 @@ body {
     }
 
     .contact-form {
-        width: 60%;
+        width: 71%;
         padding: 20px 40px 40px;
+    }
+
+    .form {
+        margin-right: 20px;
     }
 
     .section-accordion {

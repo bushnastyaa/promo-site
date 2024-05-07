@@ -117,7 +117,7 @@ body {
 }
 
 .slide-icons span {
-    font-size: 24px;
+    font-size: 1.3rem;
     margin-right: 1.3rem;
     background: linear-gradient(#8DE6A2, #266f99);
     background-clip: text;
@@ -208,11 +208,15 @@ body {
 }
 
 @media (max-width: 500px) {
+    .slide-icons {
+        top: 68%;
+    }
+
     .slide-text {
         top: -5%;
     }
 
     .slide-text p {
-        font-size: 30px;
+        font-size: 28px;
     }
 }
